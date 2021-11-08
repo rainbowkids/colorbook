@@ -1,0 +1,16 @@
+{
+    "name": "Color Book",
+    "short_name": "Color Book",
+    "start_url": "./",
+    "display": "fullscreen",
+    "orientation": "landscape",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "icons": [
+        {
+            "src": "favicon.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
