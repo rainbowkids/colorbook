@@ -3,9 +3,9 @@ self.addEventListener('install', event => event.waitUntil(onInstall(event)));
 self.addEventListener('activate', event => event.waitUntil(onActivate(event)));
 self.addEventListener('fetch', event => event.respondWith(onFetch(event)));
 
-const version = 'rv0921';
+const version = 'rv0920';
 
-const CacheName = 'colorbook-' + version;
+const CacheName = 'colorpages-' + version;
 
 async function onInstall(event) {
 
@@ -13,7 +13,7 @@ async function onInstall(event) {
         caches.keys().then(function (cacheNames) {
             return Promise.all(
                 cacheNames.filter(function (cacheName) {
-                    return cacheName.startsWith('colorbook-') &&
+                    return cacheName.startsWith('colorpages-') &&
                         cacheName != CacheName;
                 }).map(function (cacheName) {
                     return caches.delete(cacheName);
