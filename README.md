@@ -26,6 +26,6 @@ Try this app together with your unique child, let him/her grasp it.
 
 Let us know if we can adjust a few things for his/her favour, via ask.bitblazers@gmail.com
 
-### Teacher? Physiologist? Expert on autistic spectrum?
+### Teacher? Expert on autistic spectrum?
 
 Help us to make this better and compatible with more of the spectrum. Open a new issue.
